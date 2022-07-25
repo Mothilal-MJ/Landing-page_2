@@ -1,0 +1,25 @@
+.animation{
+    font-size: 25px;
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes colorChange {
+    0%{
+        color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: coral;
+    }
+    100%{
+        color: cyan;
+    }
+}
